@@ -75,7 +75,6 @@ input[type=text]:focus {
 /*   background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/connectwork.png'); */
   background-color: #ff9999;
 }
-
 .colourmod{
   font-family: ProximaNova;
   font-weight:normal;
@@ -100,15 +99,20 @@ input[type=text]:focus {
   font-size: 2vw;
   line-height: 2vw;
 }
-.site-footer .icon {
-	font-size: 20px;
+#footer {
+  font-size: 2vw;
+  line-height: 3vw;
+}
+#footer a {
+  color: black;
+}
+#footer a:hover {
+  color: blue;
+}
+#footer a:visited {
+  color: purple;
 }
 
-.site-footer .love .icon {
-	font-size: 12px;
-	margin-left: 2px;
-	margin-right: 2px;
-}
 .responsive-container {
     position: relative;
     width: 100%;
