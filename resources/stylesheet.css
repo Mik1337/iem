@@ -134,6 +134,14 @@ input[type=text]:focus {
   text-decoration: underline;
 }
 
+iframe {
+  width: 75vw;
+  height: 70vh;
+}
+h1 {
+  font-family: ProximaNova !important;
+  font-weight: bold !important;
+}
 .responsive-container {
     position: relative;
     width: 100%;
