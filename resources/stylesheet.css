@@ -117,18 +117,20 @@ input[type=text]:focus {
 
 #footer {
   font-family: ProximaNova !important;
-  color: black;
-  background-image: url("https://media.giphy.com/media/xThuW9zh3xNc4uGbu0/giphy.gif");
+  color: #FFBF00;
+  background-image: url("http://www.pchenshimin.com.cn/d/file/2012/01/29/183584547f9c1218f50e745e5d114947.gif");
+  /* background-image: url("https://media.giphy.com/media/UR6ZXKs8bKhuU/giphy.gif"); */
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 2vw;
   line-height: 3vw;
 }
 #footer a {
-  color: red;
+  color: hotpink;
 }
 #footer a:hover {
-  color: violet;
+  color: red;
+  font-size: 110%;
 }
 #footer a:visited {
   text-decoration: underline;
