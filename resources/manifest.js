@@ -4,14 +4,14 @@
       "paper": "https://drive.google.com/file/d/15G7qOg74C3R5juKiEktZnpau7562tOyL/view",
       "notes": "",
       "video": "",
-      "downloads": "",
+      "downloads": ""
   },
   "fm": {
     "title": "Fluid Mechanics",
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "mmm": {
@@ -19,7 +19,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "mom": {
@@ -27,7 +27,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "mp1": {
@@ -35,7 +35,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "camd": {
@@ -43,7 +43,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "kom": {
@@ -51,7 +51,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "cadcam": {
@@ -59,7 +59,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "mp2": {
@@ -67,7 +67,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "msm": {
@@ -75,7 +75,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "me": {
@@ -83,7 +83,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "wse": {
@@ -91,7 +91,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "dme": {
@@ -99,7 +99,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "se": {
@@ -107,7 +107,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "ee": {
@@ -115,7 +115,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "hrm": {
@@ -123,7 +123,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "qar": {
@@ -131,7 +131,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "or": {
@@ -139,7 +139,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "sma": {
@@ -147,7 +147,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "mm": {
@@ -155,7 +155,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "sem": {
@@ -163,7 +163,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   },
 
   "ve": {
@@ -171,7 +171,7 @@
     "paper": "",
     "notes": "",
     "video": "",
-    "downloads": "",
+    "downloads": ""
   }
 
 }

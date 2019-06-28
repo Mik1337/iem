@@ -27,7 +27,7 @@ $(function () {
         e.preventDefault();
 
         $.ajax({
-            type: 'GET', url: 'https://nyander-api.herokuapp.com/id'
+            type: 'GET', url: 'https://raw.githubusercontent.com/Mik1337/iem/beta/resources/manifest.js'
         }).done(function(data) {
             var object = jQuery.parseJSON(data);
             ReactDOM.render(
