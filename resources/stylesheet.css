@@ -74,6 +74,7 @@ body {
   justify-content: flex-start;
   padding-left: 10;
   font-size: 37;
+  text-decoration: underline;
   font-weight: bold;
   font-family: Roboto;
 }
@@ -86,13 +87,20 @@ body {
   font-family: Roboto;
 }
 .video {
-  /* justify-content: flex-end; */
-  margin-left:auto; margin-right:10;
-  padding-right: 30;
+  justify-content: flex-end;
+  position: absolute;
+  display: inline;
+  right: 0;
+  padding-right: 10vw;
 }
 
+iframe {
+  width:40vw;
+  height:48vh;
+}
 .parallax {
   background-size: cover;
+  background-color: #e6e8ec;
   width: 70%;
   height: 70vh;
   padding-top: 50px;
@@ -102,28 +110,20 @@ body {
   background-repeat: no-repeat;
 }
 
-#footer {
+.footer {
+  background-color: #2a3746 !important;
+  color: lightgray;
   font-family: Roboto;
   background-size: cover;
   background-repeat: no-repeat;
 }
-#footer a {
-  color: hotpink;
+.footer a {
+  color: lightpink;
 }
-#footer a:hover {
-  color: red;
+.footer a:hover {
+  color: hotpink;
   font-size: 110%;
 }
-#footer a:visited {
+.footer a:visited {
   text-decoration: underline;
 }
-
-.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
-    color: black;
-    background-color: #fcd900;
-}
-
-    .nav-pills > li.active > a:hover {
-        background-color: #efcb00;
-        color:black;
-    }
