@@ -13,10 +13,11 @@ $(function () {
         return (
           <div className="parallax container-fluid">
             <p className="title"> { divConfig.title } </p>
-            <p className="decor"> <a href={ divConfig.paper}> Papers </a></p>
-            <p className="decor"> <a href={ divConfig.notes }> Notes </a></p>
-            <p className="video"> <a href={ divConfig.video }> Videos </a></p>
-            <p className="decor"> <a href={ divConfig.dload }> Downloads </a></p>
+            <p className="decor"> <a href={ divConfig.paper}> <i class="fas fa-paperclip"></i> Papers </a></p>
+            <p className="decor"> <a href={ divConfig.notes }> <i class="fas fa-book-open"></i> Notes </a></p>
+            <p className="video"> <iframe src={ divConfig.video } frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Videos </a></p>
+            // <p className="video"> <a href={ divConfig.video }> Videos </a></p>
+            <p className="decor"> <a href={ divConfig.dload }> <i class="fas fa-file-download"></i> Downloads </a></p>
           </div>
         )
       }

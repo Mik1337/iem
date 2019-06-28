@@ -3,14 +3,14 @@
       "title": "Basics Of Thermodynamics",
       "paper": "https://drive.google.com/file/d/15G7qOg74C3R5juKiEktZnpau7562tOyL/view",
       "notes": "",
-      "video": "",
+      "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
       "downloads": ""
   },
   "fm": {
     "title": "Fluid Mechanics",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -18,7 +18,7 @@
     "title": "Mechanical Measurement and Metrology",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -26,7 +26,7 @@
     "title": "Mechanics of Materials",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -34,7 +34,7 @@
     "title": "Manufacturing Process 1",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -42,7 +42,7 @@
     "title": "Computer Aided Machine Drawings",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -50,7 +50,7 @@
     "title": "Kinematics of Machines",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -58,7 +58,7 @@
     "title": "Computer Aided Design and Manufacturing",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -66,7 +66,7 @@
     "title": "Manufacturing Process 2",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -74,7 +74,7 @@
     "title": "Material Science and Metallurgy",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -82,7 +82,7 @@
     "title": "Management and Entrepreneurship",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -90,7 +90,7 @@
     "title": "Work Study and Ergonomics",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -98,7 +98,7 @@
     "title": "Design of Machine Elements",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -106,7 +106,7 @@
     "title": "Statistics for Engineers",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -114,7 +114,7 @@
     "title": "Engineering Economy",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -122,7 +122,7 @@
     "title": "Human Resource Management",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -130,7 +130,7 @@
     "title": "Quality Assurance and Reliability",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -138,7 +138,7 @@
     "title": "Operations Research",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -146,7 +146,7 @@
     "title": "Simulation Modeling and Analysis3",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -154,7 +154,7 @@
     "title": "Material Management",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -162,7 +162,7 @@
     "title": "Software Engineering and Management",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   },
 
@@ -170,7 +170,7 @@
     "title": "Value Engineering",
     "paper": "",
     "notes": "",
-    "video": "",
+    "video": "https://www.youtube.com/embed/DMxOk3AIAVU",
     "downloads": ""
   }
 
