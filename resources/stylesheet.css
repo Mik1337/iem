@@ -1,33 +1,62 @@
 body {
-  /* padding-top: px; */
-  /* background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/email-pattern.png"); */
-   background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/sakura.png");
-  /* background: #fffcf9 !important; */
-  /* background-size: contain; */
-  /* background-repeat: no-repeat; */
-  justify-content: center
-  align-items: center;
-  scroll-behavior: smooth;
+  /* padding-top: 100px; */
 }
 
+/* cyrillic-ext */
 @font-face {
- font-family:'ProximaNova';
- src:url("./fonts/ProximaNova-Regular.otf") format("opentype") !important;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
 }
-
-ul {
-  display: inline-block;
-  text-align: left;
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
-h5 {
-  font-family: ProximaNova !important;
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
 }
-hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v19/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 .abs-center-x {
@@ -36,94 +65,47 @@ hr {
   transform: translateX(-50%);
 }
 
-input[type=text] {
-  padding: 3px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-  width: 10px;
-}
-/* When the input field gets focus, change its width to 20% */
-input[type=text]:focus {
-  width: 30%;
+.jumbotron {
+  font-family: Roboto;
+  font-size: 23px;
 }
 
-.vertical-center {
-  min-height: 69%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 69vh; /* These two lines are counted as one :-)       */
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  height: 400px;
-  align-items: center;
+.title {
+  justify-content: flex-start;
+  padding-left: 10;
+  font-size: 37;
+  font-weight: bold;
+  font-family: Roboto;
 }
-.display-middle {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  -ms-transform:translate(-50%,-50%)
+.decor {
+  /* CSS Class for Paper, Notes and Downloads */
+  justify-content: flex-start;
+  padding-left: 30;
+  font-size: 20;
+  font-weight: bold;
+  font-family: Roboto;
 }
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.video {
+  /* justify-content: flex-end; */
+  margin-left:auto; margin-right:10;
+  padding-right: 30;
+}
+
+.parallax {
   background-size: cover;
-  width: 100%;
-  height: 100vh;
+  width: 70%;
+  height: 70vh;
   padding-top: 50px;
 /* Create the parallax scrolling effect */
   background-attachment: fixed;
-  /* background-position: center;
-  background-repeat: no-repeat; */
-}
-.parallax1{
-  /*   background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/crissXcross.png'); */
-  background-color: #cef5ff;
-}
-.parallax2 {
-/*   background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/curls.png'); */
-  background-color: #bde6ff;
-}
-.parallax3 {
-/*   background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/christmas-black.png'); */
-  background-color: #ffb7b7;
-}
-.parallax4 {
-/*   background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/connectwork.png'); */
-  background-color: #ff9999;
-}
-.colourmod{
-  font-family: ProximaNova;
-  font-weight:normal;
-  font-style:italic;
-  font-weight:700;
-  text-transform:uppercase;
-  margin: 10;
-}
-.bigbig {
-  color: black;
-  /* text-shadow:0.5vw 0.5vw 0.5vw blue; */
-  font-size: 2.8vw;
-  line-height: 2.9vw;
-}
-.big {
-  color: black;
-  font-size: 5vw;
-  line-height: 5vw;
-}
-.smallbig {
-  color: hotpink;
-  font-size: 2vw;
-  line-height: 2vw;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #footer {
-  font-family: ProximaNova !important;
-  color: #FFBF00;
-  background-image: url("http://www.pchenshimin.com.cn/d/file/2012/01/29/183584547f9c1218f50e745e5d114947.gif");
-  /* background-image: url("https://media.giphy.com/media/UR6ZXKs8bKhuU/giphy.gif"); */
+  font-family: Roboto;
   background-size: cover;
   background-repeat: no-repeat;
-  font-size: 2vw;
-  line-height: 3vw;
 }
 #footer a {
   color: hotpink;
@@ -136,24 +118,12 @@ input[type=text]:focus {
   text-decoration: underline;
 }
 
-iframe {
-  width: 75vw;
-  height: 70vh;
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: #fcd900;
 }
-h1 {
-  font-family: ProximaNova !important;
-  font-weight: bold !important;
-}
-.responsive-container {
-    position: relative;
-    width: 100%;
-    border: 1px solid black;
-}
-.container {
-  width: 75vw;
-  margin: 140;
-}
-.iconspacing {
-  margin-left: 1vw;
-  margin-right: 1vw;
-}
+
+    .nav-pills > li.active > a:hover {
+        background-color: #efcb00;
+        color:black;
+    }
