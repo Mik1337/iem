@@ -1,5 +1,5 @@
 body {
-  /* padding-top: 100px; */
+  background-color:  #f5f6f8 !important;
 }
 
 /* cyrillic-ext */
@@ -71,7 +71,6 @@ body {
 }
 
 .title {
-  justify-content: flex-start;
   padding-left: 10;
   font-size: 37;
   text-decoration: underline;
@@ -80,24 +79,22 @@ body {
 }
 .decor {
   /* CSS Class for Paper, Notes and Downloads */
-  justify-content: flex-start;
   padding-left: 30;
   font-size: 20;
   font-weight: bold;
   font-family: Roboto;
 }
 .video {
-  justify-content: flex-end;
   position: absolute;
   display: inline;
   right: 0;
   padding-right: 10vw;
 }
-
 iframe {
-  width:40vw;
-  height:48vh;
+   height: 40vh;
+   width: 40vw;
 }
+
 .parallax {
   background-size: cover;
   background-color: #e6e8ec;
@@ -109,6 +106,45 @@ iframe {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* For mobile view */
+@media only screen and (max-width: 854px) {
+  iframe {
+    width:300px;
+    height:250px;
+  }
+}
+@media only screen and (max-width: 806px) {
+  .title {
+    padding-left: 10;
+    font-size: 20;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Roboto;
+  }
+  .decor {
+    /* CSS Class for Paper, Notes and Downloads */
+    padding-left: 30;
+    font-size: 15;
+    font-weight: bold;
+    font-family: Roboto;
+  }
+  .video {
+    position: relative;
+    display: absolute;
+    bottom: 0;
+    padding-left: 30px;
+    /* display: flex; */
+    /* right: 0; */
+    /* padding-right: 10vw; */
+  }
+  iframe {
+    /* padding-top: 50px */
+    width:250px;
+    height:150px;
+  }
+}
+/* end of mobile view */
 
 .footer {
   background-color: #2a3746 !important;

@@ -13,11 +13,10 @@ $(function () {
         return (
           <div className="parallax container-fluid">
             <p className="title"> { divConfig.title } </p>
-            <p className="decor"> <a href={ divConfig.paper}> <i class="fas fa-paperclip"></i> Papers </a></p>
-            <p className="decor"> <a href={ divConfig.notes }> <i class="fas fa-book-open"></i> Notes </a></p>
-            <p className="video"> <iframe src={ divConfig.video } frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> Videos </a></p>
-            // <p className="video"> <a href={ divConfig.video }> Videos </a></p>
-            <p className="decor"> <a href={ divConfig.dload }> <i class="fas fa-file-download"></i> Downloads </a></p>
+            <p className="video "> <iframe src={ divConfig.video } frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <p className="decor"> <a href={ divConfig.paper}> <i className="fas fa-paperclip"></i> Papers </a></p>
+            <p className="decor"> <a href={ divConfig.notes }> <i className="fas fa-book-open"></i> Notes </a></p>
+            <p className="decor"> <a href={ divConfig.dload }> <i className="fas fa-file-download"></i> Downloads </a></p>
           </div>
         )
       }
@@ -40,72 +39,72 @@ $(function () {
       render() {
         return (
           <div>
-          <ul class="nav nav-tabs">
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"btd")} href="#btd"> Basics Of Thermodynamics</a>
+          <ul className="nav nav-pills">
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"btd")} href="#btd"> Basics Of Thermodynamics</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"fm")} href="#fm">  Fluid Mechanics </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"fm")} href="#fm">  Fluid Mechanics </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mmm")} href="#mmm">  Mechanical Measurement And Metrology </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mmm")} href="#mmm">  Mechanical Measurement And Metrology </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mom")} href="#mom">  Mechanics Of Materials </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mom")} href="#mom">  Mechanics Of Materials </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mp1")} href="#mp1">  Manufacturing Process 1 </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mp1")} href="#mp1">  Manufacturing Process 1 </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"camd")} href="#camd">  Computer Aided Machine Drawing </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"camd")} href="#camd">  Computer Aided Machine Drawing </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"kom")} href="#kom">  Kinematics Of Machines </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"kom")} href="#kom">  Kinematics Of Machines </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"cadcam")} href="#cadcam">  Computer Aided Design And Manufacturing </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"cadcam")} href="#cadcam">  Computer Aided Design And Manufacturing </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mp2")} href="#mp2">  Manufacturing Process 2 </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mp2")} href="#mp2">  Manufacturing Process 2 </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"msm")} href="#msm">  Materials Science And Metallurgy </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"msm")} href="#msm">  Materials Science And Metallurgy </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"me")} href="#me">  Management & Entrepreneurship </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"me")} href="#me">  Management & Entrepreneurship </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"wse")} href="#wse">  Work study and Ergonomics </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"wse")} href="#wse">  Work study and Ergonomics </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"dme")} href="#dme">  Design of Machine Elements </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"dme")} href="#dme">  Design of Machine Elements </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"se")} href="#se">  Statistics for Engineers </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"se")} href="#se">  Statistics for Engineers </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"ee")} href="#ee">  Engineering Economy </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"ee")} href="#ee">  Engineering Economy </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"hrm")} href="#hrm">  Human Resource Management </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"hrm")} href="#hrm">  Human Resource Management </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"qar")} href="#qar">  Quality Assurance and Reliability  </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"qar")} href="#qar">  Quality Assurance and Reliability  </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"or")} href="#or">  Operations Research  </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"or")} href="#or">  Operations Research  </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"sma")} href="#sma">  Simulation Modeling and Analysis  </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"sma")} href="#sma">  Simulation Modeling and Analysis  </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mm")} href="#mm">  Materials Management  </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mm")} href="#mm">  Materials Management  </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"sem")} href="#sem">  Software Engineering and Management  </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"sem")} href="#sem">  Software Engineering and Management  </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"ve")} href="#ve">  Value Engineering  </a>
+            <li className="nav-item">
+              <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"ve")} href="#ve">  Value Engineering  </a>
             </li>
           </ul>
         </div>
