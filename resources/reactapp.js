@@ -13,7 +13,7 @@ $(function () {
         return (
           <div className="parallax container-fluid">
             <p className="title"> { divConfig.title } </p>
-            <p className="video "> <iframe src={ divConfig.video } frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+            <p className="video "> <iframe src={ divConfig.video } frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
             <p className="decor"> <a href={ divConfig.paper}> <i className="fas fa-paperclip"></i> Papers </a></p>
             <p className="decor"> <a href={ divConfig.notes }> <i className="fas fa-book-open"></i> Notes </a></p>
             <p className="decor"> <a href={ divConfig.dload }> <i className="fas fa-file-download"></i> Downloads </a></p>
@@ -35,7 +35,7 @@ $(function () {
             );
         });
       }
-      
+
       render() {
         return (
           <div>
@@ -47,7 +47,7 @@ $(function () {
             <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem7">7 th semester</a></li>
             <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem8">8 th semester</a></li>
           </ul>
-          <br></br>
+          <hr></hr>
           <div className="tab-content">
             <div id="sem3" className="tab-pane fade">
               <ul className="nav nav-pills">
