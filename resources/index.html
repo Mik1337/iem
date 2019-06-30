@@ -4,15 +4,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/png" href="https://i.imgur.com/4mi6iHC.png"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:500i,600i,700i,800i,900i" rel="stylesheet">
 <link rel=”canonical” href=”http://industrial-management.herokuapp.com/”/>
 <title>IEM</title>
+
+<!-- custom stylesheet -->
 <link href="stylesheet.css" rel="stylesheet">
+
+<!-- icon pack -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+<!-- bootstrap 4 -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<!-- react js -->
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+<!-- custom react app -->
+<script src="./reactapp.js" type="text/babel"></script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136836752-3"></script>
 <script>
@@ -28,227 +42,50 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <nav class="navbar navbar-expand-md bg-dark navbar-dark container-fluid fixed-top justify-content-center">
   <a class="navbar-brand" href="https://industrial-management.herokuapp.com/"><img style="max-width:30px; margin-top: -2px;" src="https://i.imgur.com/4mi6iHC.png"></img></a>
-  <!-- Brand -->
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggler hidden-md-up pull-xs-right navbar-toggler-right" data-toggle="collapse" data-target="#collapseBar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <!-- Links -->
-  </div>
+  <!-- Search bar -->
+  <!-- <form class="nav navbar-form abs-center-x" role="search">
+    <div class="input-group">
+      <input type="text" class='form-control' name="search" placeholder="Search...">
+      <span class="input-group-btn input-group-append">
+        <button type="submit" class="btn btn-default">
+          <span class="fa fa-search"></span>
+        </button>
+      </span>
+    </div>
+  </form> -->
 
-  <div class="collapse navbar-collapse" id="collapseBar">
-    <ul class="navbar-nav" data-toggle="collapse">
-      <!-- Drop Down -->
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-          Courses
-        </a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#btd"> Basics Of Thermodynamics</a>
-          <a class="dropdown-item" href="#fm"> Fluid Mechanics</a>
-          <a class="dropdown-item" href="#mmm"> Mechanical Measurement And Metrology</a>
-          <a class="dropdown-item" href="#mom"> Mechanics Of Materials</a>
-          <a class="dropdown-item" href="#mp1"> Manufacturing Process 1</a>
-          <a class="dropdown-item" href="#camd"> Computer Aided Machine Drawing</a>
-          <a class="dropdown-item" href="#kom"> Kinematics Of Machines</a>
-          <a class="dropdown-item" href="#cadcam"> Computer Aided Design And Manufacturing</a>
-          <a class="dropdown-item" href="#mp2"> Manufacturing Process 2</a>
-          <a class="dropdown-item" href="#msm"> Materials Science And Metallurgy</a>
-          <a class="dropdown-item" href="#me"> Management & Entrepreneurship</a>
-          <a class="dropdown-item" href="#wse"> Work study and Ergonomics</a>
-          <a class="dropdown-item" href="#dme"> Design of Machine Elements</a>
-          <a class="dropdown-item" href="#se"> Statistics for Engineers</a>
-          <a class="dropdown-item" href="#ee"> Engineering Economy</a>
-          <a class="dropdown-item" href="#hrm"> Human Resource Management</a>
-          <a class="dropdown-item" href="#qar"> Quality Assurance and Reliability </a>
-          <a class="dropdown-item" href="#or"> Operations Research </a>
-          <a class="dropdown-item" href="#sma"> Simulation Modeling and Analysis </a>
-          <a class="dropdown-item" href="#mm"> Materials Management </a>
-          <a class="dropdown-item" href="#sem"> Software Engineering and Management </a>
-          <a class="dropdown-item" href="#ve"> Value Engineering </a>
-          <!-- <i class=""></i> -->
-	      </div>
-	    </li>
-    </ul>
-    <!-- Search bar -->
-    <form class="nav navbar-form abs-center-x" role="search">
-      <div class="input-group">
-        <input type="text" class='form-control' name="search" placeholder="Search...">
-        <span class="input-group-btn input-group-append">
-          <button type="submit" class="btn btn-default">
-            <span class="fa fa-search"></span>
-          </button>
-        </span>
-      </div>
-    </form>
-
-    <ul class="nav navbar-nav ml-auto pull-right nav-extras">
-      <li class="nav-item"><a class="nav-link" href="contribute.html"><i class="zmdi zmdi-account-circle"> Contribute</i></a></li>
-    </ul>
-  </div>
+  <ul class="nav navbar-nav ml-auto pull-right nav-extras">
+    <li class="nav-item"><a class="nav-link" href="contribute.html"><i class="fas fa-people-carry"> Contribute</i></a></li>
+  </ul>
 </nav>
 <br>
 
-<center>
+<!-- start body -->
+<div class="jumbotron">
+  <p class="decor">The following are <a href="http://vtu.ac.in/">VTU</a> question papers collected over the past lord knows how many years.</p>
+  <p class="decor">let hope it be usefl</p>
+</div>
 
-<div  id="home" class="container container-fluid">
-  <p class="colourmod bigbig">The following are <a href="http://vtu.ac.in/">VTU</a> question papers collected over the past lord knows how many years.</p>
-  <p class="colourmod bigbig">let hope it be usefl</p>
-  <!-- <div style="position:relative;width:267px;height:25px;overflow:hidden;">
-  <div style="position:absolute;top:-276px;left:-5px">
-  <button><i class="fas fa-pause-circle"></i></button>
-  <iframe width="400" height="400"
-    src="https://www.youtube.com/embed/hHW1oY26kxQ">
-  </iframe>
+<!-- Render the clickable buttons -->
+<div id="tik" class="container-fluid"></div>
+<!-- Render the subjects based on button click -->
+<div id="app" class="parallax container-fluid" >
+  <!-- Default Section to be shown before user clicks on nav -->
+  <div >
+    <p class="title"> Select Semester and Subject </p>
+    <p class="decor"> <i class="fas fa-paperclip"></i> We offer question papers </p>
+    <p class="decor"> <i class="fas fa-book-open"></i> Subject Notes if any </p>
+    <p class="decor"> <i class="fas fa-file-download"></i> And consise download of all content </p>
+    <p class="video">
+      <iframe src="https://www.youtube.com/embed/Cy5MiOqarYs" allow="accelerometer; gyroscope" allowfullscreen>Video</iframe>
+    </p>
   </div>
-  </div> -->
-</div>
-
-<div id="btd" class="parallax1">
-  </br><p class="colourmod big">Basics of Thermodynamics</p></br>
-  <!-- <p class="big"> 2010 scheme </p></br> -->
-  <p class="big"> <a href="https://drive.google.com/open?id=15G7qOg74C3R5juKiEktZnpau7562tOyL"> 2015 scheme </a></p></br>
-  <p class="big"> Other Papers </p></br>
-  <p class="big"> <a href="https://drive.google.com/open?id=1AJYXJAGVcAchsQ-nhAOQ9KDy-WV-3Nb4"> notes </a></p></br>
-</div>
-
-<div id="fm" class="parallax2 ">
-</br><p class="colourmod big">Fluid Mechanics</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=1dfuLEUsZ9S4CRRjlT-upZtxScUWDSwxN"> 2015 scheme </a></p></br>
-<p class="big"> Other Papers </p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="mmm" class="parallax3 ">
-</br><p class="colourmod big">Mechanical Measurement And Metrology</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=1s31TP-As3chDasnoP-SxrwXWJDm5oSpy"> 2015 scheme </a></p></br>
-<p class="big"> Other Papers </p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="mom" class="parallax4 ">
-</br><p class="colourmod big">Mechanics Of Materials</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=1_9ED3HwC3P2DmxLa15juB2GHZEK_6koX"> 2015 scheme </a></p></br>
-<p class="big"> Other Papers </p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="mp1" class="parallax3">
-</br><p class="colourmod big">Manufacturing Process 1</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=1g5WKwQlc5FA7_05n5PDbO3CK0oCN79dY"> 2015 scheme </a></p></br>
-<p class="big"> Other Papers </p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="camd" class="parallax2">
-</br><p class="colourmod big">COMPUTER AIDED MACHINE DRAWING</p></br>
-<!-- <p class="big"> 2010 scheme </p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br> -->
-<p class="big"> Downloadables </p></br>
-<p class="big"> <a href="./videos.html#camd"> videos </a></p></br>
-</div>
-
-<div id="kom" class="parallax1">
-</br><p class="colourmod big">KINEMATICS OF MACHINES</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href=""https://drive.google.com/open?id=1O3MnZh-8fvy3T2iyuMP8IBujfctDZ9E0> 2015 scheme </a></p></br>
-<p class="big"> <a href="./videos.html#kom"> videos </a></p></br>
-</div>
-
-<div id="cadcam" class="parallax2">
-</br><p class="colourmod big">COMPUTER AIDED DESIGN AND MANUFACTURING</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=1DCPchHnq29UKF1jPB2quSeJ0QTMCLO3b"> 2015 scheme </a></p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="mp2" class="parallax3">
-</br><p class="colourmod big">Manufacturing Process 2</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=1tBwPMr5gBpwsENZW2ZKS4S4bwZXFmr71"> 2015 scheme </a></p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="msm" class="parallax4">
-</br><p class="colourmod big">MATERIALS SCIENCE AND METALLURGY</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=17y6XqW6oPfj9lGGpBErm16uHktNv-Jz1"> 2015 scheme </a></p></br>
-<p class="big"> Other Papers </p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="me" class="parallax3">
-</br><p class="colourmod big"></p> Management & Entrepreneurship</br>
-<p class="big"> <a href="https://drive.google.com/open?id=1Ql1k3A4cqsfP7uoyHk0AAmYWCvarFJ7d"> 2015 scheme </a></p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="wse" class="parallax2">
-</br><p class="colourmod big">Work study and Ergonomics</p></br>
-<!-- <p class="big"> 2010 scheme </p></br> -->
-<p class="big"> <a href="https://drive.google.com/open?id=12B_BT-wjYJKl-QKHPoO7VfhJGKz0zGsq"> 2015 scheme </a></p></br>
-<!-- <p class="big"> notes </p></br> -->
-</div>
-
-<div id="dme" class="parallax1">
-</br><p class="colourmod big">Design of Machine Elements</p></br>
-<p class="big"> <a href="https://drive.google.com/open?id=1XhjEtsid3yIw6BTvDO4V_HCWar0TNePq"> 2015 scheme </a></p></br>
-<!-- <p class="big"> Machine Design Handbook </p></br> -->
-</div>
-
-<div id="se" class="parallax2">
-</br><p class="colourmod big">Statistics for Engineers</p></br>
-<p class="big"> <a href="https://drive.google.com/open?id=1kq6U7IWNl-DpxFWtWo0TXZJeJXWuzy4E"> 2015 scheme </a></p></br>
-</div>
-
-<div id="ee" class="parallax3">
-</br><p class="colourmod big">Engineering Economy</p></br>
-<p class="big"> <a href="https://drive.google.com/open?id=1YYVtp2HNTSCmkkKtZp-yEmC5fw5LWvUD"> 2015 scheme </a></p></br>
-</div>
-
-<div id="hrm" class="parallax4">
-</br><p class="colourmod big">Human Resource Management</p></br>
-<p class="big"> <a href="https://drive.google.com/open?id=19jGmHWm6CYAaRH8QNiXpdV4L4hEBqiRI"> 2015 scheme </a></p></br>
-</div>
-
-<div id="qar" class="parallax3">
-</br><p class="colourmod big">Quality Assurance and Reliability</p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br>
-</div>
-
-<div id="or" class="parallax2">
-</br><p class="colourmod big">Operations Research</p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br>
-</div>
-
-<div id="sma" class="parallax1">
-</br><p class="colourmod big">Simulation Modeling and Analysis</p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br>
-</div>
-
-<div id="mm" class="parallax2">
-</br><p class="colourmod big">Materials Management</p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br>
-</div>
-
-<div id="sem" class="parallax3">
-</br><p class="colourmod big">Software Engineering and Management</p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br>
-</div>
-
-<div id="ve" class="parallax4">
-</br><p class="colourmod big">Value Engineering</p></br>
-<p class="big"> <a href=""> 2015 scheme </a></p></br>
 </div>
 
 <!-- Footer -->
-	<section class="vertical-center" id="footer">
-		<div class="container-fluid">
+<div class="jumbotron text-center footer" style="margin-bottom:0">
 			<div class="row text-center text-xs-center text-sm-left text-md-left">
+
         <div class="col-xs-12 col-sm-4 col-md-4">
 					<h3>___Self___</h3>
 					<ul class="list-unstyled quick-links">
@@ -267,19 +104,18 @@
             <li><a href="http://www.z-table.com/chi-square-table.html"><b><i>χ</i></b> Chi square table</a></li>
             <li><a href="http://www.z-table.com/f-distribution-table.html"><i class="fas fa-dice-d20"></i> f distribution table</a></li>
             <li><a href="https://fuckvtu.herokuapp.com/"><i class="fas fa-bullseye"></i> GPA Calculator</a></li>
-						<li><a href="./videos.html"><i class="far fa-play-circle"></i> Videos</a></li>
+						<li><a href="./manifest.js"><i class="fas fa-person-booth"></i> Manifest</a></li>
 					</ul>
 				</div>
 
         <div class="col-xs-12 col-sm-4 col-md-4">
 					<h3>__Branding__</h3>
 					<ul class="list-unstyled quick-links">
-            <li><a href="https://coolors.co/fffcf9-cef5ff-bde6ff-ffb7b7-ff9999"><i class="fas fa-swatchbook"></i> Colour Pallet</a></li>
+            <li><a href="https://coolors.co/343a40-e9ecef-f3f3f3-e6e8ec-2a3746"><i class="fas fa-swatchbook"></i> Colour Pallet</a></li>
 						<li><a href="https://www.youtube.com/watch?v=hHW1oY26kxQ"><i class="fas fa-headphones-alt"></i> Music</a></li>
-            <li><a href="https://i.imgur.com/4mi6iHC.png"><img src=" https://i.imgur.com/54ZMFSn.png" width=20px height=20pxa> logo</a></li>
+            <li><a href="https://i.imgur.com/4mi6iHC.png"><img src="https://i.imgur.com/4mi6iHC.png" width=25vw height=25vh> logo</a></li>
 					</ul>
 				</div>
-
 			</div>
 
 			<div class="row">
@@ -298,12 +134,7 @@
 				</div>
 				</hr>
 			</div>
-
-		</div>
-	</section>
-	<!-- ./Footer -->
-
-</center>
+</div>
 
 </body>
 
