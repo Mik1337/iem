@@ -40,17 +40,17 @@ $(function () {
         return (
           <div>
 
-          <ul class="nav nav-pills" role="tablist">
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sem3">3 rd semester</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sem4">4 th semester</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sem5">5 th semester</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sem6">6 th semester</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sem7">7 th semester</a></li>
-            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#sem8">8 th semester</a></li>
+          <ul className="nav nav-pills" role="tablist">
+            <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem3">3 rd semester</a></li>
+            <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem4">4 th semester</a></li>
+            <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem5">5 th semester</a></li>
+            <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem6">6 th semester</a></li>
+            <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem7">7 th semester</a></li>
+            <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem8">8 th semester</a></li>
           </ul>
-
-          <div class="tab-content">
-            <div id="sem3" class="tab-pane fade in active">
+          <br></br>
+          <div className="tab-content">
+            <div id="sem3" className="tab-pane fade">
               <ul className="nav nav-pills">
                 <li className="nav-item">
                   <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"btd")} href="#btd">Basics Of Thermodynamics</a>
@@ -146,9 +146,9 @@ $(function () {
               <ul className="nav nav-pills">
                 // gotta fill
               </ul>
-
             </div>
           </div>
+
         </div>
         )
       }
