@@ -170,6 +170,10 @@ iframe {
   .bottom {
     transform: translate(40px, -100px) !important;
   }
+  .contri {
+    width: 300px !important;
+    height: 350px !important;
+  }
 }
 /* end of mobile view */
 
@@ -182,7 +186,12 @@ iframe {
 .bottom {
   transform: translate(0px, -80px);
 }
-
+.contri {
+  width: 30vw !important;
+  height: 30vw !important;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
 .footer {
   background-color: #2a3746 !important;
   color: lightgray;
