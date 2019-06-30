@@ -1,5 +1,5 @@
 body {
-  background-color:  #f5f6f8 !important;
+  background-color:  #f3f3f3 !important;
 }
 
 /* cyrillic-ext */
@@ -94,6 +94,11 @@ iframe {
    height: 40vh;
    width: 40vw;
 }
+
+/*
+#tik {
+  background-color: pink;
+} */
 
 .parallax {
   background-size: cover;

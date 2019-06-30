@@ -34,12 +34,11 @@ $(function () {
               document.getElementById("app")
             );
         });
-        // console.log(e.target)
       }
+      
       render() {
         return (
           <div>
-
           <ul className="nav nav-pills" role="tablist">
             <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem3">3 rd semester</a></li>
             <li className="nav-item"><a className="nav-link" data-toggle="pill" href="#sem4">4 th semester</a></li>
@@ -68,6 +67,7 @@ $(function () {
                   <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"mp1")} href="#mp1">Manufacturing Process 1 </a>
                 </li>
               </ul>
+              <br></br>
             </div>
 
             <div id="sem4" class="tab-pane fade">
@@ -88,6 +88,7 @@ $(function () {
                   <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"msm")} href="#msm">Materials Science And Metallurgy </a>
                 </li>
               </ul>
+              <br></br>
             </div>
 
             <div id="sem5" class="tab-pane fade">
@@ -111,6 +112,7 @@ $(function () {
                   <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"hrm")} href="#hrm">Human Resource Management </a>
                 </li>
               </ul>
+              <br></br>
             </div>
 
             <div id="sem6" class="tab-pane fade">
@@ -134,18 +136,21 @@ $(function () {
                   <a className="nav-link" data-toggle="pill" onClick={e => this.handleClick(e,"ve")} href="#ve">Value Engineering  </a>
                 </li>
               </ul>
+              <br></br>
             </div>
 
             <div id="sem7" class="tab-pane fade">
               <ul className="nav nav-pills">
                 // gotta fill
               </ul>
+              <br></br>
             </div>
 
             <div id="sem8" class="tab-pane fade">
               <ul className="nav nav-pills">
                 // gotta fill
               </ul>
+              <br></br>
             </div>
           </div>
 
