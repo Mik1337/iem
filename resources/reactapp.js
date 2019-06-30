@@ -11,7 +11,7 @@ $(function () {
         };
 
         return (
-          <div className="parallax container-fluid">
+          <div className="">
             <p className="title"> { divConfig.title } </p>
             <p className="decor"> <a href={ divConfig.paper}> <i className="fas fa-paperclip"></i> Papers </a></p>
             <p className="decor"> <a href={ divConfig.notes }> <i className="fas fa-book-open"></i> Notes </a></p>

@@ -68,6 +68,8 @@ body {
 .jumbotron {
   font-family: Roboto;
   font-size: 23px;
+/* border around jumbotron */
+    border: 1px solid black;
 }
 
 .title {
@@ -92,8 +94,8 @@ body {
   padding-right: 10vw;
 }
 iframe {
-   height: 40vh;
-   width: 40vw;
+   height: 50vh;
+   width: 50vw;
 }
 
 /*
@@ -101,18 +103,24 @@ iframe {
   background-color: pink;
 } */
 
-.parallax {
+.parallax-home, .parallax-beta {
   background-size: cover;
-  background-color: #e6e8ec;
-  width: 70%;
-  height: 70vh;
   padding-top: 10px;
+  background-color: #e6e8ec;
+  width: 100%;
 /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+/* border around parallax */
+  border: 1px solid black;
 }
-
+.parallax-home {
+  height: 70vh;
+}
+.parallax-beta {
+  height: 100vh;
+}
 /* For mobile view */
 @media only screen and (max-width: 854px) {
   iframe {
