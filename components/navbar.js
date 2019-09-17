@@ -1,15 +1,26 @@
-import Link from 'next/link';
+import React, { Component } from 'react';
+import Link from 'next/link'
 
-const NavBar = () => {
-  <div>
-    <ul>
-    <li><Link href='/'> Index </Link></li>
-     <li><Link href='/about'> About </Link></li>
-     // <li><a href="news.asp">News</a></li>
-     // <li><a href="contact.asp">Contact</a></li>
-     // <li><a href="about.asp">About</a></li>
-   </ul>
- </div>
+class Navbar extends Component {
+  render() {
+    return (
+      <div>
+        <Link href='/'>
+          <img width="30" margin-top="-2" src="https://i.imgur.com/CmYcjAK.png"/>
+        </Link>
+        <h1> Rables of a broken mind  </h1>
+        <Link href='/about'><a> contribute </a></Link>
+        <style jsx>{`
+          div {
+            background-color: gray;
+            padding: 5px;
+            border-radius: 5px;
+          }
+        `}
+        </style>
+      </div>
+    )
+  }
 }
 
-export default NavBar;
+export default Navbar;
