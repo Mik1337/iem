@@ -99,7 +99,7 @@
     "paper": "https://drive.google.com/file/d/1XhjEtsid3yIw6BTvDO4V_HCWar0TNePq/view",
     "notes": "",
     "video": "",
-    "downloads": ""
+    "downloads": "https://drive.google.com/file/d/1yl0PqKjMmpjGm4Z7Y1PphxitbVtY06xo/view?usp=drivesdk"
   },
 
   "se": {
@@ -112,7 +112,7 @@
 
   "ee": {
     "title": "Engineering Economy",
-    "paper": "",
+    "paper": "https://drive.google.com/open?id=1YYVtp2HNTSCmkkKtZp-yEmC5fw5LWvUD",
     "notes": "",
     "video": "",
     "downloads": ""
@@ -120,7 +120,7 @@
 
   "hrm": {
     "title": "Human Resource Management",
-    "paper": "",
+    "paper": "https://drive.google.com/open?id=19jGmHWm6CYAaRH8QNiXpdV4L4hEBqiRI",
     "notes": "",
     "video": "",
     "downloads": ""
