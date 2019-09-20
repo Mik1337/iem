@@ -4,16 +4,12 @@
   "description": "index the resources for iem",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export"
+    "start": "node index.js"
   },
   "author": "Mik",
   "license": "MIT",
   "dependencies": {
-    "next": "^8.0.0",
-    "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   }
 }
