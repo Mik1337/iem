@@ -69,7 +69,7 @@ body {
   font-family: Roboto;
   font-size: 23px;
 /* border around jumbotron */
-    border: 1px solid black;
+    border: 0.05em dotted gray;
 }
 
 .title {
@@ -113,7 +113,7 @@ iframe {
   background-position: center;
   background-repeat: no-repeat;
 /* border around parallax */
-  border: 1px solid black;
+  border: 0.05em dotted gray;
 }
 .parallax-home {
   height: 70vh;
