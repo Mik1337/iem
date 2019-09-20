@@ -99,7 +99,7 @@
     "paper": "https://drive.google.com/file/d/1XhjEtsid3yIw6BTvDO4V_HCWar0TNePq/view",
     "notes": "",
     "video": "",
-    "downloads": "https://drive.google.com/open?id=1yl0PqKjMmpjGm4Z7Y1PphxitbVtY06xo"
+    "downloads": "https://drive.google.com/file/d/1yl0PqKjMmpjGm4Z7Y1PphxitbVtY06xo/view?usp=drivesdk"
   },
 
   "se": {
